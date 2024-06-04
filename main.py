@@ -4,6 +4,7 @@ import ollama
 
 
 
+
 page_bg_img= """
 <style>
 [data-testid = "stAppVeiwContainer"]
@@ -16,8 +17,8 @@ linear-gradient( 45deg, #f745e8, #f745e8 5px, #e5e5f7 5px, #e5e5f7 25px );
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.sidebar.image("icon1.png")
-st.sidebar.header("Options")
-text =st.sidebar.text_area('Paste here')
+#st.sidebar.header("Options")
+#text =st.sidebar.text_area('Paste here')
 
 st.header("hello I'm BRaiNWAVE your local AI assistaint...@Your service")
 #input for the prompt
