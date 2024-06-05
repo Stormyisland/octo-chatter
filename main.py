@@ -39,5 +39,5 @@ if prompt:
             "content":prompt,
         }])
         response = result["message"]["content"]
-        st.write(response)
+        st.write(response + "brought to you by brainwave")
 
