@@ -34,8 +34,8 @@ if prompt:
 
     #processing 
     with st.spinner("Tinkering and Thinkering"):
-        result = ollama.chat(model="llama2", messages=[{
-            "role":"assistant",
+        result = ollama.chat(model="llama3", messages=[{
+            "role":"assistant","expert"
             "content":prompt,
         }])
         response = result["message"]["content"]
