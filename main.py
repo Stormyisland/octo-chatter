@@ -34,7 +34,7 @@ if prompt:
 
     #processing 
     with st.spinner("Tastes like knowledge"):
-        result = ollama.chat(model="phi3:latest", messages=[{
+        result = ollama.chat(model="llama2:latest", messages=[{
             "role":"assistant",
             "content":prompt,
         }])
