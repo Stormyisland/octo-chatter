@@ -1,6 +1,6 @@
 import streamlit as st
 import ollama
-
+import os, sys
 
 
 
@@ -33,7 +33,7 @@ if prompt:
         st.write(prompt)
 
     #processing 
-    with st.spinner("Tastes knowledgey"):
+    with st.spinner("Tastes like knowledge"):
         result = ollama.chat(model="llama3", messages=[{
             "role":"assistant",
             "content":prompt,
