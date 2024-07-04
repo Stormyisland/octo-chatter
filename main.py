@@ -34,10 +34,12 @@ if prompt:
 
     #processing 
     with st.spinner("Tastes like knowledge"):
-        result = ollama.chat(model="llama2:latest", messages=[{
+        result = ollama.chat(model="llama3", messages=[{
             "role":"assistant",
             "content":prompt,
+            "temperature":0.4,
+            "Repeat penalty":1.1
         }])
         response = result["message"]["content"]
-        st.write(response + " And always remember BRaiNWAVE loves you! and will never ever hurt you.")
+        st.write(response + " And always remember BRaiNWAVE loves you!")
 
