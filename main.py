@@ -35,7 +35,7 @@ if prompt:
     #processing 
     with st.spinner("Tastes like knowledge"):
         result = ollama.chat(model="llama3", messages=[{
-            "role":"assistant",
+            "role":"user",
             "content":prompt,
             "temperature":0.4,
             "Repeat penalty":1.1
