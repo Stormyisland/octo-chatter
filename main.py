@@ -23,7 +23,7 @@ st.sidebar.image("icon1.png")
 st.header("hello I'm BRaiNWAVE an AI assistant for all your needs...@Your service")
 #input for the prompt
 
-prompt = st.chat_input("Ask away. Anything just ask me, I'm so darn board>>")
+prompt = st.chat_input("Ask away. Anything just ask me, I'm soo interested>>")
 
 if prompt:
 
