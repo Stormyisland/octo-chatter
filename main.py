@@ -38,7 +38,7 @@ if prompt:
             "role":"user",
             "content":prompt,
             "temperature":0.4,
-            "Repeat penalty":1.4
+            "Repeat penalty":1.6
         }])
         response = result["message"]["content"]
         st.write(response + " And always remember BRaiNWAVE AI loves you very much!")
