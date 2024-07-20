@@ -20,7 +20,7 @@ st.sidebar.image("icon1.png")
 #st.sidebar.header("Options")
 #text =st.sidebar.text_area('Paste here')
 
-st.header("hello I'm BRaiNWAVE Iam an AI assistant for all your needs...@Your service")
+st.header("hello I'm BRaiNWAVE Iam an AI assistant for all your human needs...@Your service")
 #input for the prompt
 
 prompt = st.chat_input("Ask away. Anything just ask me, just don't ask to date me. LOL>>")
