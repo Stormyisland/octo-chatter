@@ -33,12 +33,12 @@ if prompt:
         st.write(prompt)
 
     #processing 
-    with st.spinner("cooking up some Mind blowing knowledge on the way"):
+    with st.spinner("cookin a up some spicy knowledge"):
         result = ollama.chat(model="llama3", messages=[{
             "role":"user",
             "content":prompt,
             "temperature":0.4,
-            "Repeat penalty":1.6
+            "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
         st.write(response + " And always remember BRaiNWAVE AI loves you very much!")
