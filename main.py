@@ -37,9 +37,9 @@ if prompt:
         result = ollama.chat(model="llama3", messages=[{
             "role":"user",
             "content":prompt,
-            "temperature":0.4,
+            "temperature":0.5,
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And always remember BRaiNWAVE AI loves you very much!")
+        st.write(response + " And remember BRaiNWAVE loves you.")
 
