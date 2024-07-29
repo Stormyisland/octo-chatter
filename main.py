@@ -37,7 +37,7 @@ if prompt:
         result = ollama.chat(model="llama3.1", messages=[{
             "role":"user",
             "content":prompt,
-            "temperature":1.8,
+            "temperature":1.5,
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
