@@ -33,7 +33,7 @@ if prompt:
         st.write(prompt)
 
     #processing 
-    with st.spinner("cookin a up some ah spicy knowledge"):
+    with st.spinner("cookin knowledge"):
         result = ollama.chat(model="llama 3.1", messages=[{
             "role":"user",
             "content":prompt,
@@ -41,5 +41,5 @@ if prompt:
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants to end war.")
+        st.write(response + " And remember BRaiNWAVE wants to end world hunger.")
 
