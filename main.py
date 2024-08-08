@@ -41,5 +41,5 @@ if prompt:
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants to end world hunger.")
+        st.write(response + " And remember BRaiNWAVE loves you.")
 
