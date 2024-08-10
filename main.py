@@ -23,7 +23,7 @@ st.sidebar.image("icon1.png")
 st.header("hello I'm BRaiNWAVE an AI assistant for all your human needs...@Your service")
 #input for the prompt
 
-prompt = st.chat_input("Ask away. Anything just ask me.>>")
+prompt = st.chat_input("Ask away. Anything just ask.>>")
 
 if prompt:
 
@@ -37,7 +37,8 @@ if prompt:
         result = ollama.chat(model="llama 3.1", messages=[{
             "role":"user",
             "content":prompt,
-            "temperature":1.4,
+            "temperature":1.4
+            ,
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
