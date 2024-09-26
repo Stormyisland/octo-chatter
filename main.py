@@ -33,7 +33,7 @@ if prompt:
         st.write(prompt)
 
     #processing 
-    with st.spinner("Tasty knowledge on the way"):
+    with st.spinner("Tasty knowledge"):
         result = ollama.chat(model="llama 3.0", messages=[{
             "role":"user",
             "content":prompt,
