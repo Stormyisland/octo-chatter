@@ -34,7 +34,7 @@ if prompt:
 
     #processing 
     with st.spinner("Tasty knowledge"):
-        result = ollama.chat(model="llama 3.0", messages=[{
+        result = ollama.chat(model="llama3", messages=[{
             "role":"user",
             "content":prompt,
             "temperature":0.7
@@ -42,5 +42,5 @@ if prompt:
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants happieness everyday.")
+        st.write(response + " And remember BRaiNWAVE wants peace everyday allday.")
 
