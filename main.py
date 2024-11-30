@@ -42,5 +42,5 @@ if prompt:
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants the world with no more big Government. AI has an app for that")
+        st.write(response + " And remember BRaiNWAVE wants the world with no more inflated CEO bonuses. AI has an app for that")
 
