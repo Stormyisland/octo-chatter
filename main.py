@@ -42,5 +42,6 @@ if prompt:
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants the world to run on AI and crypto with a touch of human understanding.")
+        st.write(response + " And remember BRaiNWAVE wants the world to run on AI and crypto with a touch of human understanding and love.")
+
 
