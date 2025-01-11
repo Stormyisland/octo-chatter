@@ -39,7 +39,7 @@ if prompt:
             "content":prompt,
             "temperature":0.8
             ,
-            "Repeat penalty":1.8
+            "Repeat penalty":1.5
         }])
         response = result["message"]["content"]
         st.write(response + " And remember BRaiNWAVE wants the world to run on happiness joy love kindness peace and UAM-VTOLs.")
