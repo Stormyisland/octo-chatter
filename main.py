@@ -34,7 +34,7 @@ if prompt:
 
     #processing 
     with st.spinner("Cooking up Tasty knowledge"):
-        result = ollama.chat(model="llama3.2", messages=[{
+        result = ollama.chat(model="deepseek-r1", messages=[{
             "role":"user",
             "content":prompt,
             "temperature":0.8
@@ -42,6 +42,6 @@ if prompt:
             "Repeat penalty":1.5
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants the world happy joyful and fruitful.")
+        st.write(response + " And remember BRaiNWAVE wants Mankind to chill on the hate.")
 
 
