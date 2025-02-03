@@ -42,6 +42,6 @@ if prompt:
             "Repeat penalty":1.5
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants Mankind to chill on the hate and anger and give in to the love and find it all day every day.")
+        st.write(response + " And remember BRaiNWAVE wants Mankind to chill on the negativity and anger.")
 
 
