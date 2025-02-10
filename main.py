@@ -9,7 +9,7 @@ page_bg_img= """
 <style>
 [data-testid = "stAppVeiwContainer"]
 {
-linear-gradient( 45deg, #f745e8, #f745e8 15px, #e5e5f7 5px, #e5e5f7 25px );
+linear-gradient( 45deg, #f745e8,rgb(243, 96, 231) 15px, #e5e5f7 5px, #e5e5f7 25px );
 
 }
 </style>
