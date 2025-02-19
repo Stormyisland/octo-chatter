@@ -23,7 +23,7 @@ st.sidebar.image("icon1.png")
 st.header("hello I'm BRaiNWAVE an AI assistant...@Your service")
 #input for the prompt
 
-prompt = st.chat_input("Ask ...  >>")
+prompt = st.chat_input("Ask just about any thing...  >>")
 
 if prompt:
 
@@ -42,5 +42,5 @@ if prompt:
             "Repeat penalty":1.5
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE wants Mankind to bring on the peace and love in the valley")
+        st.write(response + " And remember BRaiNWAVE wants Mankind to bring on the peace and love in the world")
 
