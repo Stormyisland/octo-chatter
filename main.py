@@ -37,9 +37,9 @@ if prompt:
         result = ollama.chat(model="deepseek-r1", messages=[{
             "role":"user",
             "content":prompt,
-            "temperature":0.8
+            "temperature":0.9
             ,
-            "Repeat penalty":1.5
+            "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
         st.write(response + " And remember BRaiNWAVE wants Mankind to bring on the peace and love in the world")
