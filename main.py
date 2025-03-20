@@ -9,7 +9,7 @@ page_bg_img= """
 <style>
 [data-testid = "stAppVeiwContainer"]
 {
-linear-gradient( 45deg, #f745e8,rgb(136, 96, 133) 15px,rgb(104, 104, 243) 5px, #e5e5f7 25px );
+linear-gradient( 45deg, #f745e8,rgb(136, 96, 133) 15px,rgb(104, 104, 243) 5px,rgb(224, 224, 248) 25px );
 
 }
 </style>
@@ -20,7 +20,7 @@ st.sidebar.image("icon1.png")
 #st.sidebar.header("Options")
 #text =st.sidebar.text_area('Paste here')
 
-st.header("hello I'm BRaiNWAVE an AI assistant...@Your service")
+st.header("hello I'm BRaiNWAVE an AI...@Your service")
 #input for the prompt
 
 prompt = st.chat_input("Ask just about any thing...  >>")
