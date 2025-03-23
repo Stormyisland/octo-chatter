@@ -42,5 +42,5 @@ if prompt:
             "Repeat penalty":1.8
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE says no to war and yes to love. To quote a dear friend, the only way to win is to not play")
+        st.write(response + " And remember BRaiNWAVE says no to war and yes to love. To quote a dear friend, the only way to win is to not play oh yeah and 42")
 
