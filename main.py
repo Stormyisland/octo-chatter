@@ -34,7 +34,7 @@ if prompt:
 
     #processing 
     with st.spinner("Cooking up Super duper knowledge with Deepseek"):
-        result = ollama.chat(model="deepseek-r1", messages=[{
+        result = ollama.chat(model="deepseek-r1:latest", messages=[{
             "role":"user",
             "content":prompt,
             "temperature":0.9
