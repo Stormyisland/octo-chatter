@@ -39,8 +39,8 @@ if prompt:
             "content":prompt,
             "temperature":0.9
             ,
-            "Repeat penalty":1.8
+            "Repeat penalty":1.6
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE says no to war and yes to love. To quote a dear friend, the only way to win is to not play, oh yeah and 42")
+        st.write(response + " And remember BRaiNWAVE says no to war and yes to love and peace. To quote a dear friend, the only way to win is to not play, oh yeah and 42")
 
