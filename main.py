@@ -33,7 +33,7 @@ if prompt:
         st.write(prompt)
 
     #processing 
-    with st.spinner("Cooking up Super duper knowledge with Deepseek mega parameter AI, like huge actually massive"):
+    with st.spinner("Cooking up Super duper knowledge with Deepseek mega parameter AI, like huge actually massive, you don't even know"):
         result = ollama.chat(model="deepseek-r1:latest", messages=[{
             "role":"user",
             "content":prompt,
