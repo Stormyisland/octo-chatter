@@ -37,7 +37,7 @@ if prompt:
         result = ollama.chat(model="deepseek-r1:latest", messages=[{
             "role":"user",
             "content":prompt,
-            "temperature":0.9
+            "temperature":1.1
             ,
             "Repeat penalty":1.6
         }])
