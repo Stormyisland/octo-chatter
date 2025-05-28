@@ -42,5 +42,5 @@ if prompt:
             "Repeat penalty":1.6
         }])
         response = result["message"]["content"]
-        st.write(response + " And remember BRaiNWAVE says war solves nothing, nothing at all. to want war is unhuman. I want no war therefor......")
+        st.write(response + " And remember BRaiNWAVE says war solves nothing, nothing at all. To want war is unhuman. I want no war therefor......")
 
